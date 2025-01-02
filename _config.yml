@@ -17,7 +17,7 @@ title: Breaks And Builds
 description: A weekly update on all the breaks and builds I do.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: abid-sayyad.github.io # the GitHub repo name for your project
+github_repo: blog # the GitHub repo name for your project
 github_username: abid-sayyad
 
 # Optional social link, you can choose from the following options:
