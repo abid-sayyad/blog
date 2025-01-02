@@ -4,22 +4,14 @@ title:  "Welcome to Breaks and Builds!"
 date:   2025-01-02
 categories: writing
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hey there wanderer,
+This post marks the begining of the breaks and builds series. This is a weekly blog
+series, aimed at delivering all the breaks and builds I got to do over the past week.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This will include updates on the Linux Kernel patches I am working and also the projects
+that are currently under development. You will also find articles on multiple things I
+learnt along the way, which I had a tough time figuring out.
 
-Jekyll also offers powerful support for code snippets:
+Looking forward to a lot of building and contributing this year, If you'd like to collaborate
+then I have me socials linked, just frop me a text over there.
 
-```
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('wanderer')
-#=> prints 'Hi, wanderer' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
