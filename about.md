@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About <img src="assets/profile.jpg" width="100" align="right">
+title: About 
 permalink: /about/
 ---
+<img src="assets/profile.jpg" width="100" align="right">
+
 ## Hey there, I'm Abid.  
 I love building cool pieces of tech. Why?  
 
