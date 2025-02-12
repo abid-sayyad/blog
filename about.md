@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About <img src="assets/profile.jpg" width="100" align="right">
 permalink: /about/
 ---
 ## Hey there, I'm Abid.  
