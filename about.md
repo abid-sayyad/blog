@@ -10,8 +10,8 @@ I love building cool pieces of tech. Why?
 
 There are two main reasons:  
 
-1. **Breaking things** – It helps me gain a deeper understanding of the tech I’m working on (and also boosts a local vendor’s coffee sales).  
-2. **Building things** – It brings an immense sense of satisfaction and joy—especially when running on two hours of sleep and four mugs of espresso.  
+1. **Breaking things** - Who doesn't enjoy breaking things? It helps one explore what's inside (apparently not Intel). (and also boosts a local vendor’s coffee sales).  
+2. **Building things** - The adrenaline hit feels really good when sleep deprived, high on caffeine (4 shots of espresso) and trying to solve that silly bug at 0345 hrs.
 
 I also contribute to the **Linux kernel** because, let’s be honest, who wouldn’t want to say, *"I have patches upstream in the Linux kernel"*? 😎  
 
