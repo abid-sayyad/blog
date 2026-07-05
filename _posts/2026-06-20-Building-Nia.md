@@ -14,7 +14,7 @@ Keeping the rant aside lets get into the hacking 🤘.
 ## The inspiration
 An year ago I saw this video by mitxela showcasing his fluid sim pendant. It caught my attetion and I wanted to making something like that of my own. I started with the physics first. Getting a hold of whats moving and whats not in a simulation was really important.
 
-![Project Screenshot](./../assets/Screenshot_2026-06-20-18-59-57-58_92460851df6f172a4592fca41cc2d2e6.jpg)
+![Project Screenshot](./../assets/nia.jpg)
 
 I then researched I hardware I wante to work with. STM is great but I have a soft edge for Raspberry. This edge led me to choosing RP2354A for this project. We'll discover later why. This uses Bma400 accelerometer, TPS3839A09DQNR, TPS7A0215PDQNR and MCP73832-2-MC for charging the rechargable cell.
 
@@ -29,4 +29,4 @@ I ordered some LEDs and started soldering them. The initial assembly wasn't a pr
 
 I wired up a 10x9 version of the matrix for the prototype. This started with building a schematic for the same.
 
-![Prototype Schematic](<../assets/Screenshot from 2026-06-27 06-34-08.png>)
+![Prototype Schematic](<../assets/proto_schematic.png>)
