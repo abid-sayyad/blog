@@ -30,3 +30,11 @@ I ordered some LEDs and started soldering them. The initial assembly wasn't a pr
 I wired up a 10x9 version of the matrix for the prototype. This started with building a schematic for the same.
 
 ![Prototype Schematic](<../assets/proto_schematic.png>)
+
+The schematic seems convoluted and messy at a first glance but it is rather simple. you just need to focus on and look for patterns.
+A good friend of mine said this to me that, "90% of engineering is identifying patterns". I agree to him. If we zoom in a little and look at the little repeating patterns then we see the following.
+
+![atomic_piece](../assets/repeating_segment.png)
+
+You just need to replicate this piece and wire these segments to together to make yourself a nice charliplexed schematic. At the begining I felt it difficult to wrap my head around this. This was jsut a matter of time, I just needed to start trying to implement this. So I did. Interestingly as soon as I started implementing the design it started feeling simpler and fun. All the piece come together one by one.
+
