@@ -12,7 +12,7 @@ This blog was supposed to be a year earlier but here we are. I just finsihed the
 Keeping the rant aside lets get into the hacking 🤘.
 
 ## The inspiration
-An year ago I saw this video by mitxela showcasing his fluid sim pendant. It caught my attetion and I wanted to making something like that of my own. I started with the physics first. Getting a hold of whats moving and whats not in a simulation was really important.
+An year ago I saw this video by mitxela showcasing his fluid sim pendant. It caught my attetion and I wanted to make something like that of my own. I started with the physics first. Getting a hold of whats moving and whats not in a simulation was really important.
 
 <img src="/blog/assets/nia.jpg" width="250" align="centre">
 
@@ -37,5 +37,26 @@ A good friend of mine said this to me that, "90% of engineering is identifying p
 
 ![atomic_piece](../assets/repeating_segment.png)
 
-You just need to replicate this piece and wire these segments to together to make yourself a nice charliplexed schematic. At the begining I felt it difficult to wrap my head around this. This was jsut a matter of time, I just needed to start trying to implement this. So I did. Interestingly as soon as I started implementing the design it started feeling simpler and fun. All the piece come together one by one.
+You just need to replicate this piece and wire these segments together to make yourself a nice charliplexed schematic. When I started, I thought it would be difficult to wrap my head around this. It was rather just a matter of time and practise. I just had to start implementing the schematic. So I did. Interestingly as soon as I started implementing the design, everything starged coming along piece by piece.
 
+You can start with a simpler and smaller grids like a 4X3 or 5X3 and so on. Once you are confident with the pattern, you can scale it up by adding the atomic pieces. I started with a an even simpler design which looked something like this.
+
+TODO - Add a simpler Charliplexed matrix schematic.
+
+This is a rather simpler design and gives you a basic idea of charliplexing wihtout the complex wiring. It is really a blessing to be abled to wire n(n-1) LEDs onver n GPIOs, thanks to Charliplexing. This also comes with its own constraints, as being able to manage these many LEDs through a matrix increases RAM overhead. This pushes does affect your MCU selection. We'll talk about MCU selection later in the article.
+
+## Prototyping
+
+After this was handwiring a prototype. which was fairly fun. I ordered a spool of 0.1mm enamel coated copper wire. (The best decision ever). Then I lost it somewhere in my living room the next day lol. I picked up some single core aluminum wires, which I had lying around. peeled off the unwanted cover and started soldering. Even with the simpler schematic the wiring was a little tricky. Firstly because of the thickness of the wire and scondly because of the messy matrix. Couldn't do anything about the wire (I tried looking but couldn't find it) but I sure could work around with the wiring.
+
+TODO - Add an image of the route selection tool
+
+Here KiCAD came in handly alot, especially the route/ path highlighter tool. The tool helped see the schematic in a more layer by layer approach. One GPIO string at a time. The process was slow but relaxing. I started with cutting and stripping the wire first and made strands of them ready to be soldered. Then was the fun part, soldering. 
+
+TODO - add the high on solder fumes meme
+
+I was not sure how this would look in the end. Turns out it started looking pretty cool. Not the very best soldering job but it does the trick.
+
+TODO - ADD the wiring soldering image.
+
+I miscalculated initially about how many LEDs I'd need. Once my first set of white LEDs were over, I had to bring in the green LEDs I had lying around. Not very pleasing to look but it does the job. 
