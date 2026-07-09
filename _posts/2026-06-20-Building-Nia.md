@@ -61,6 +61,17 @@ I was not sure how this would look in the end. Turns out it started looking pret
 
 Here's a look at the solder job. I started with placing bare wires aligned to one diagonal direction. Followed by adding segmented peeled wires aligned in the other direction. I first scaled them on the pcb with just the LEDs soldered. 
 
-<img src="/blog/assets/nia/proto_soldering_1.jpg" width="600" class="block mx-auto">
-<img src="/blog/assets/nia/proto_soldering_2.jpg" width="600" class="block mx-auto">
-<img src="/blog/assets/nia/proto_soldering_3.jpg" width="600" class="block mx-auto">
+<img src="/blog/assets/nia/proto_soldering_1.jpg" width="400" class="block mx-auto">
+
+I started with keeping the bottom most layer wires nakes and completely peeled just to be able to stack the upper layers with wire's rubber coatings. Again using thin copper wires will be a rather better choice.
+
+<img src="/blog/assets/nia/proto_soldering_2.jpg" width="400" class="block mx-auto">
+
+This is how the final soldering looked like. Initially I added 330 Ohm resistors just to keep the LEDs safe. It turns out because I am operating the LEDs at a speed where they aren't able to pull much current due to quick switching. I ended up removing the resistors as majority of the LEDs were too dim to be seem or some didn't even turn on.
+
+<img src="/blog/assets/nia/proto_soldering_3.jpg" width="400" class="block mx-auto">
+
+Here is a demo video from one of the tests I ran just to verify that all the LEDs are fine or did I burn something up while soldering the LEDs.
+
+<iframe width="420" height="315" src="/blog/assets/nia/solder_test_demo.mp4" frameborder="0" class="block mx-auto" allowfullscreen></iframe>
+
