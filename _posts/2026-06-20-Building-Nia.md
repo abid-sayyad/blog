@@ -26,6 +26,8 @@ I suggest going through his tutorials and the JavaScript code he has written onc
 ## Getting started with the PCB
 This first thing I did was get started with the schematic. I needed to figure out how to get this charliplexing done and create a prototype so that I am sure that it actually works.
 
+Charliplexing is method of multiplexing LEDs; where you exploit the idea of GPIOs being able to drive tri-state.
+
 I ordered some LEDs and started soldering them. The initial assembly wasn't a problem. But before actually soldering the LEDs to the board I made a schematic. THIS WAS A VERY IMPORTANT STEP.
 
 I wired up a 10x9 version of the matrix for the prototype. This started with building a schematic for the same.
@@ -73,5 +75,6 @@ This is how the final soldering looked like. Initially I added 330 Ohm resistors
 
 Here is a demo video from one of the tests I ran just to verify that all the LEDs are fine or did I burn something up while soldering the LEDs.
 
-<iframe width="420" height="315" src="/blog/assets/nia/solder_test_demo.mp4" frameborder="0" class="block mx-auto" allowfullscreen></iframe>
+<video width="420" height="315" src="/blog/assets/nia/full_block_test.mp4" class="left" controls muted></video> <video width="420" height="315" src="/blog/assets/nia/singlel_led_test.mp4" class="right" controls muted></video>
 
+This was the prototype. It was fun building it and playing with it. It is crazy to see how the Charliplexing actually works.
