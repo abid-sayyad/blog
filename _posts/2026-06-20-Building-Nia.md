@@ -26,7 +26,7 @@ I suggest going through his tutorials and the JavaScript code he has written onc
 ## Getting started with the PCB
 This first thing I did was get started with the schematic. I needed to figure out how to get this charliplexing done and create a prototype so that I am sure that it actually works.
 
-Charliplexing is method of multiplexing LEDs; where you exploit the idea of GPIOs being able to drive tri-state.
+Charliplexing is method of multiplexing LEDs; where you exploit the idea of GPIOs being able to drive to tri-state.
 
 I ordered some LEDs and started soldering them. The initial assembly wasn't a problem. But before actually soldering the LEDs to the board I made a schematic. THIS WAS A VERY IMPORTANT STEP.
 
